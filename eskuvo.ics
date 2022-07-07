@@ -1,0 +1,35 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Budapest
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Europe/Budapest
+X-LIC-LOCATION:Europe/Budapest
+BEGIN:DAYLIGHT
+TZNAME:CEST
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZNAME:CET
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20220707T154354Z
+UID:1657208587208-32848@ical.marudot.com
+DTSTART;TZID=Europe/Budapest:20221022T154500
+DTEND;TZID=Europe/Budapest:20221023T020000
+SUMMARY:Viki és Jani esküvője
+URL:vikiesjani.github.io/eskuvo
+DESCRIPTION:Kedves Vendégeink!\n\nA Templomi esküvő 16:00-kor kezdődik. Kérünk Titeket\, hogy helyeiteket legkésőbb 10 perccel korábban foglaljátok el. A program tervezet:\n\nSzent Család templom:\n16:00 - egyházi szertartás\n16:40 - fotózás\n\nParipa Csárda:\n18:00 - polgári szertartás\n19:30 - vacsora\n21:00 - nyitótánc\n22:00 - Torta és ajándékozás\n 0:00 - Éjféli menü\n\nVárunk Titeket szeretettel!\n\nÜdv\,\nViki és Jani
+LOCATION:Debreceni Szent Család templom\, Debrecen\, Holló László stny. 1\, 4031 Magyarország
+END:VEVENT
+END:VCALENDAR
